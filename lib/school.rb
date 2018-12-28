@@ -1,10 +1,11 @@
 class School
-#  attr_accessor
-#  attr_reader
-  @roster = {}
+   attr_accessor :name, :roster
+   attr_reader
+  
 
-  def initialize(school)
-    @school = school
+  def initialize(name)
+    @name = name
+    @roster = {}
   end
 
   def school
