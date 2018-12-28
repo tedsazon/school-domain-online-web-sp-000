@@ -1,6 +1,6 @@
 class School
-  attr_accessor
-  attr_reader
+#  attr_accessor
+#  attr_reader
 
   def initialize(name)
     @name = name
